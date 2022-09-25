@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Musica JV</title>
+    <style>
+    	*{
+    		padding:  0px; 
+    		margin:  0px;
+    	}
+        body{
+            background-color: rgb(255, 197, 197);
+        }
+
+        .contenedor{
+            width: 70%;
+            margin:  0 auto; 
+            background-color:  rgb(255,65, 255);
+        }
+
+        .contenedor li {
+            display: inline-block; 
+            list-style: none;
+            width: 200px; 
+            font-size:  20px; 
+            text-align: center; 
+            height: 50px;
+        }
+
+        .contenedor li:hover{
+            background-color:  gray; 
+        }
+        .contenedor li a{
+            color:  white;
+            line-height: 50px;
+            text-decoration: none;
+        }
+
+        main{
+            width: 70%;
+            margin:  0px auto; 
+        }
+
+        h1{
+            margin-top:  50px; 
+            margin-bottom: 20px; 
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            font-size:  60px; 
+            color:rgb(255, 65, 255); 
+            text-align: center;
+        }
+
+        .parrafo{ 
+            font-size: 15px;
+            font-family: sans-serif; 
+            padding-left:  20px; 
+            margin-bottom: 20px; 
+            margin-top:  20px;
+        }
+
+        .subtitulo{
+            font-size: 40px; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:rgb(255, 65, 255); 
+        }
+
+        ol{
+            margin-top:  20px;
+            margin-bottom: 20px; 
+            padding-left: 40px;
+            color:  rgb(255, 65, 255)
+        }
+
+        ol a{
+            color: #B90BFF;
+            text-decoration: none;  
+            font-family:  sans-serif;
+        }
+
+        ol a:hover{
+            color:  gray;
+        }
+
+        ul{
+            margin-top:  20px;
+            margin-bottom: 20px; 
+            padding-left: 40px;
+            color:  rgb(255, 65, 255)
+        }
+
+        ul li{
+            color: #B90BFF;
+            text-decoration: none;  
+            font-family:  sans-serif;
+        }
+
+        ul li:hover{
+            color: yellow;
+        }
+
+        #informacion{
+            font-size: 40px; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:rgb(255, 65, 255);
+            padding:  20px;  
+            text-align: center;
+            margin-bottom:  20px; 
+        }
+
+        .img {
+            width: 250px; 
+            height: 250px;
+            margin:  0 auto;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .tabla_contenedor{
+            margin: 0 auto; 
+            width: 600px;
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+        table {
+            background-color: white;
+            text-align: center;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td{
+            padding:  10px; 
+        }
+
+        th:hover{
+            background-color: pink;
+        }
+
+        thead{
+            background-color: rgb(255, 65, 255);
+            color:  white;
+
+        }
+
+        tr:nth-child(even){
+            background-color: #ddd;
+        }
+
+        .imagenes{
+            width: 20%; 
+            height: 250px; 
+            display: block;
+            float: left; 
+            margin-left: 100px; 
+            margin-bottom: 50px; 
+        }
+
+        footer{
+            margin-top:  20px; 
+            margin-bottom: 20px; 
+            text-align: center;
+        }
+
+        .login {
+            margin: 0 auto; 
+            width: 360px; 
+            height: min-content;
+            padding: 20px; 
+            border-radius: 12px;
+            background-color: rgb(255, 65, 255);
+            margin-top: 50px; 
+            margin-bottom: 50px;
+            color: white; 
+        }
+
+        h4{
+            font-size: 36px; 
+            margin-bottom: 25px;
+        }
+        input[type="email"], input[type="password"] {
+            background-color: #B90BFF !important;
+            color: white !important; 
+        }
+
+        .login form {
+            font-size: 20px; 
+        }
+
+        .login form .form-group {
+            margin-bottom: 12px;
+        }
+
+        .login form input[type="submit"]{
+            font-size: 20px;
+            margin-top: 15px; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    	<div class="contenedor">
+        	<li><a href="#espanol">Español</a></li>
+        	<li><a href="#ingles">Ingles</a></li>
+        	<li><a href="#cantantes">Cantantes</a></li>
+        	<li><a href="#informacion">Informacion personal</a></li>
+        </div>
+    </nav>
+    
+    <main>
+        <section>
+            <h1>MUSICA PLAYLIST JV </h1>
+            <p class="parrafo">Pagina web en las que voy a estar informando la sobre la musica mas eschuchada en el momento en spotify diferentes generos musicales</p>
+            <H2 class="subtitulo">Playlist Español</H2>
+            <article>
+                <p  class="parrafo" id="espanol">Estas son las 10 canciones en Español, mas populares en este momento en spotify</p>
+                <ol>
+                    <li><a href="https://www.youtube.com/watch?v=5g2hT4GmAGU" target="_blank">Despecha - Rosalia</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=TiM_TFpT_DE" target="_blank">La Bachata - Manuel Turizo</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Cr8K88UcO0s" target="_blank">Titi me Preguntó - Bad Bunny</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=4I25nV9hXGA" target="_blank">Te Felicito - Shakira</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Qm_tHR9iwGo" target="_blank">Ultra solo remix - Polima</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=A_g3lMcWVy0" target="_blank">Quevedo Bizarrap</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=EslzthDFm2w" target="_blank">Mamii - Becky g</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=saGYMhApaH8" target="_blank">Me porto bonico - Bad Bunny</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=7Lmi8_ojFHo" target="_blank">Mayor que usted - Natti Natasha</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=9rhO5fRBJ9s" target="_blank">Somos iguales - Ozuna</a></li>
+                </ol>
+            </article>
+
+            <article>
+                <p class="parrafo" id="ingles">Estas son las 10 canciones en ingles, mas populares en este momento en spotify</p>
+                <ol>
+                    <li><a href="https://www.youtube.com/watch?v=saGYMhApaH8" target="_blank">Me porto bonito - Bad bunny</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=BGNkkVrJZks" target="_blank"> Bad decisions - BTS</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=CQLsdm1ZYAw" target="_blank">Calm Down - Rema</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Y2Jq2i6y4JQ" target="_blank">Spell on me - Lee Isaacs</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=me19SUmWu2s" target="_blank"> Don't you worry - Shakira</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=taSubkjZUA4" target="_blank"> Don't by shy - Tiesto</a></li>
+                    <li><a href="https://youtube.com/watch?v=U2b5i3EYPuU" target="_blank">Remember home - Elyaz</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Ti4FQYYGH5U" target="_blank"> About damm time -  Lizzo </a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-8VfKZCOo_I" target="_blank"> Bam Bam - Camila Cabello</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=M11SvDtPBhA" target="_blank">Issa Party - Radio Edit</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Il0S8BoucSA" target="_blank">Shivers - Ed Shereran</a></li>
+                </ol>
+            </article>  
+                 
+            <article>
+                <h2 class="subtitulo">Cantantes 2022</h2>
+                <p class="parrafo" id="cantantes">Estos son 10 cantantes influyentes del siglo 21</p>
+                <ul>
+                    <li>Bad Bunny</li>
+                    <li>Justin Bieber</li>
+                    <li>Ariana Grande</li>
+                    <li>Olivia Rodrigo</li>
+                    <li>BTS</li>
+                    <li>Black pink</li>
+                    <li>Adele</li>
+                    <li>Ed Sheeran</li>
+                    <li>Little mix</li>
+                    <li>Rosalia</li>
+                </ul>
+            </article>
+        </section>
+        <h3 class="subtitulo">Tabla con algunas canciones de algunos cantantes</h3>
+        <section class="tabla_contenedor">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bad bunny</th>
+                        <th>Justin Bieber</th>
+                        <th>Doja cat</th>
+                        <th>Ariana grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Vuelve</th>
+                        <th>What do you mean?</th>
+                        <th>Need to know</th>
+                        <th>7 rings</th>
+                    </tr>
+                    <tr>
+                        <th>Soy peor</th>
+                        <th>Baby</th>
+                        <th>Women</th>
+                        <th>34 + 5</th>
+                    </tr>
+                    <tr>
+                        <th>La canción</th>
+                        <th>Sorry</th>
+                        <th>Streets</th>
+                        <th>Thank you next</th>
+                    </tr>
+                    <tr>
+                        <th>Efecto</th>
+                        <th>Boyfriend</th>
+                        <th>Say So</th>
+                        <th>Focus</th>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </section>
+        <h3 class="subtitulo" style="margin: 50px; ">Imagenes de algunos cantantes</h3>
+        <section>
+            <div class="imagenes">
+                <img src="https://s3.amazonaws.com/files.lamega.com.co.prod/assets/public/styles/d_img_1200x630/public/media/image/image/2021-05/Olivia.PNG?h=63548d8f&itok=Ri4qgq0n" alt="">
+            </div>
+            <div class="imagenes">
+                <img src="https://d2yoo3qu6vrk5d.cloudfront.net/images/20190524071335/j-balvin-cantante.jpg">
+            </div>
+            <div class="imagenes">
+                <img src="data:image/jpeg;base64,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">
+            </div>
+            <div class="imagenes">
+                <img src="https://imagenes.elpais.com/resizer/bG7q-LMtX8dla6SqvKvQ0sqBd78=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/DYU3PKV7HJBF7NB7GCJDI5YTHI.jpg">
+            </div>
+            <div class="imagenes">
+                <img src="https://yt3.ggpht.com/7tCfeCWH4arhsTM-4Rz4IxWieQbegzibeXlG-kbytAujdk5dr2K0gBb8NG0Cvk6lB1dPkjyd=s900-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="imagenes">
+                <img src="data:image/jpeg;base64,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">
+            </div>
+        </section>
+        <section>
+            <h3 id="informacion">Informacion personal</h3>
+            <div class="img">
+                <img src="https://i.pinimg.com/564x/dd/a4/e7/dda4e7a9ca9931c94c9ebbc5e1a9c4b7.jpg">
+            </div>
+            <ul>
+                <li>Vanessa Rios Castañeda</li>
+                <li>3118508667</li>
+                <li>rioscastanedavanessa2920@gmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <div class="login">
+                <h4 class="text-center">Hola</h4>
+                <form>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Correo</label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="password">Correo</label>
+                        <input class="form-control" type="password" id="password">
+                    </div>
+                    <input class="btn btn-success w-100" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <footer>
+            &copy; 2022 Vanessa Rios Castañeda
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
